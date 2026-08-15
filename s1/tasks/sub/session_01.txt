@@ -1,0 +1,15 @@
+Arithmatical Operations
+    +
+    -
+    /
+    *
+    **
+    %
+
+comparision Operations
+    >
+    <
+    ==
+    >=
+    <=
+    !=
