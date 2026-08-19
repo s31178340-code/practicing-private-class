@@ -1,0 +1,11 @@
+1)
+hamid= 30
+health= "full"
+powerful="yes"
+professional= "no"
+
+2)
+player's_name= kain
+salary= '60mil'
+health= "perfect"
+is_alive= True

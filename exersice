@@ -1,0 +1,15 @@
+age= 20
+type(age)   #it wont run
+print(type(age))
+print('type of age is',type(age) )
+
+
+number_5= 15
+number_6=100
+print(number_5*number_6)
+print(100>=15)
+number_3 = 85
+print("the number_3 is" ,number_3)
+
+is_active=False
+print('is_active')
