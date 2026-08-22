@@ -29,10 +29,18 @@
 # username = input("Enter your username : ")
 # print("your username is : ", username)
 
-username = input("Enter your username : ")
-correct_username = "ali1234"
+# username = input("Enter your username : ")
+# correct_username = "ali1234"
 
-if username == correct_username:
-    print("you have premission to enter")
-else:
-    print("you have not premission to enter")
+# if username == correct_username:
+#     print("you have premission to enter")
+# else:
+#     print("you have not premission to enter")
+
+
+# Casting
+# a = "123"
+# b = int(a)
+
+# print(a, type(a))
+# print(b, type(b))
