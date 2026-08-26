@@ -1,46 +1,54 @@
-# if condition :
-#     statements
+# # if condition :
+# #     statements
 
-# a = 5
-# b = 10
+# # a = 5
+# # b = 10
 
-# if a > b:
-#     print('a is greater than b')
+# # if a > b:
+# #     print('a is greater than b')
 
-# elif a == b:
-#     print("a is equal to b")
+# # elif a == b:
+# #     print("a is equal to b")
 
-# elif a < b:
-#     print('a is less than b')
+# # elif a < b:
+# #     print('a is less than b')
 
-# else:
-#     print("Nothing else")
+# # else:
+# #     print("Nothing else")
 
-# username = 'ali'
-# correct_username = 'ali01'
+# # username = 'ali'
+# # correct_username = 'ali01'
 
-# if username == correct_username:
-#     print('You can enter to app')
+# # if username == correct_username:
+# #     print('You can enter to app')
 
-# else:
-#     print("You can't enter to app")
-
-
-# username = input("Enter your username : ")
-# print("your username is : ", username)
-
-# username = input("Enter your username : ")
-# correct_username = "ali1234"
-
-# if username == correct_username:
-#     print("you have premission to enter")
-# else:
-#     print("you have not premission to enter")
+# # else:
+# #     print("You can't enter to app")
 
 
-# Casting
-# a = "123"
-# b = int(a)
+# # username = input("Enter your username : ")
+# # print("your username is : ", username)
 
-# print(a, type(a))
-# print(b, type(b))
+# # username = input("Enter your username : ")
+# # correct_username = "ali1234"
+
+# # if username == correct_username:
+# #     print("you have premission to enter")
+# # else:
+# #     print("you have not premission to enter")
+
+# <<<<<<< HEAD
+# username= input('enter your username :')
+# print(type(username))
+# if username == "javad" :
+#     print('your line is 1')
+# elif username == 'mohsen' :
+#     print('your line is 2')
+# else :
+#     print('no')
+# =======
+
+# # Casting
+a = "123"
+b = int(a)
+print(int(a))
