@@ -17,7 +17,6 @@
 #     print('no')
 
 
-
 # type_age= None
 # username= input('enter your age:')
 # username= int(username)
@@ -28,12 +27,28 @@
 # print(type_age)
 
 
-score= 0
-correct_number= 3
-user= input('enter your number: ')
-user= int(user)
-if user==correct_number :
-    score=1+score
-elif user!=correct_number :
-    score= score-1
-print(score)
+# score= 0
+# correct_number= 3
+# user= input('enter your number: ')
+# user= int(user)
+# if user==correct_number :
+#     score=1+score
+# elif user!=correct_number :
+#     score= score-1
+# print(score)
+
+
+ab = [123, 'ali', 1234.908, True]
+n = ab[0]
+print(n)
+
+n = ab[3]
+# n = True
+print(n)
+
+print(ab[2])
+
+g = 999
+ab.append(333)
+ab.append(g)
+print(ab)
