@@ -40,11 +40,11 @@
 # my_list.append(user)
 # print(my_list)
 
-#4
-list=['milk', 'icecream', '5_toys']
-a= 'notella'
-list.append(a)
-extra_product=list[0]
-print(type(extra_product))
+# #4
+# list=['milk', 'icecream', '5_toys']
+# a= 'notella'
+# list.append(a)
+# extra_product=list[0]
+# print(type(extra_product))
 
 

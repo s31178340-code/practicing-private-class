@@ -20,3 +20,8 @@
 #     if a>12 :
 #         print('its greater', a)
 
+a=[2,3,4,5,6]
+b=a[:3]
+print(b)
+print(a)
+
