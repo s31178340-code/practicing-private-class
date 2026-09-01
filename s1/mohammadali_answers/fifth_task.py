@@ -1,4 +1,4 @@
-# #1
+##1
 # a=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 # n= a[:4]
 # for b in n:
@@ -11,9 +11,21 @@
 # a.append(b)
 # print(a)
 
-#3
-list=['milk', 'icecream', '5_toys']
-a= 'notella'
-list.append(a)
-extra_product=list[0]
-print(type(extra_product))
+##3
+# list=['milk', 'icecream', '5_toys']
+# a= 'notella'
+# list.append(a)
+# extra_product=list[0]
+# print(type(extra_product))
+
+#4
+user= input('enter your score:')
+user= int(user)
+if user>=18 and user<=20 :
+    print("Excellent")
+elif user<18 and user>=15 :
+    print('nice')
+elif user<15 and user>=10 :
+    print('acceptable')
+elif user<10 :
+    print('rejected')
