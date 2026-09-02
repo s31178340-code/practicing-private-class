@@ -20,8 +20,13 @@
 #     if a>12 :
 #         print('its greater', a)
 
-a=[2,3,4,5,6]
-b=a[:3]
-print(b)
-print(a)
+user= input('enter your age:')
+user= int(user)
+allowed_list=[]
+banned_list=[]
+if user<=13 :
+    banned_list.append(user)
+elif user>13:
+    allowed_list.append(user)
+print(allowed_list)
 
