@@ -37,4 +37,20 @@
 # print(b)
 
 
+# def multiply(a , b):
+#     n= a*b
+#     return n
+# m= multiply(2, 3)
+# d= multiply(8,9)
+# print(m)
+# print(d)
+
+
+# def multiply(a , b):
+#     n= a**b
+#     return n
+# m= multiply(2,3)
+# d= multiply(8,2)
+# print(m)
+# print(d)
 
