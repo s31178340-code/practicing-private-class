@@ -54,3 +54,7 @@
 # print(m)
 # print(d)
 
+import random
+print(random.randint(30,42))
+
+
