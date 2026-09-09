@@ -1,5 +1,5 @@
 # #1
-# import math 
+# import math
 # print(math.sqrt(64))
 
 # #2
@@ -10,7 +10,7 @@
 # import math
 # print(math.sin(12), math.cos(12))
 
-#4
+# 4
 # import math
 # def user():
 #     user=input("enter  a value:")
@@ -18,4 +18,3 @@
 #     print(a**2)
 
 # user()   به نتیجه نرسید
-
