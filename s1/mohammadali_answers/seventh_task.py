@@ -1,5 +1,5 @@
 # #1
-# import math 
+# import math
 # print(math.sqrt(64))
 
 # #2
@@ -10,7 +10,7 @@
 # import math
 # print(math.sin(12), math.cos(12))
 
-#4
+# 4
 # import math
 # def user(c):
 #     c=int(c)
@@ -39,4 +39,8 @@ for a in b:
 
     
 
+<<<<<<< HEAD
 
+=======
+# user()   به نتیجه نرسید
+>>>>>>> b3fd2347c15003ec6a4aa510a3de9a82a39b2761

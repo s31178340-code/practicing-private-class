@@ -54,7 +54,14 @@
 # print(m)
 # print(d)
 
-import random
-print(random.randint(30,42))
+# import random
+# print(random.randint(30,42))
 
+# b=range(1,10)
+# b=list(b)
+# print(b)
 
+def zarb(a,b):
+    print(a**b)
+
+zarb(2,4)
