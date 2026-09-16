@@ -61,7 +61,13 @@
 # b=list(b)
 # print(b)
 
-def zarb(a,b):
-    print(a**b)
+# def zarb(a,b):
+#     print(a**b)
 
-zarb(2,4)
+# zarb(2,4)
+
+import random
+print(random.randint(1,100))
+b=range(0,10)
+for a in b:
+    print(random.randint(0,100))
