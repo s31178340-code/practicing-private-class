@@ -5,17 +5,17 @@
 # print(b)
 
 # 2
-b = [2, 41, 20, 87, 59, 31, 62, 64, 18, 50]
+b = [2, 41, 20, 87, 59, 31, 62, 64, 18, 50, 43]
 c = []
 
 
 def a():
-    for a in b:
-        print(type(a//2))
-        if type(a//2) == int:
-            c.append(a)
-            print(c)
+    for f in b:
+        if type(f//2) == int:
+            c.append(f)
 
 
-# call
+print(c)
+
+# call it
 a()
