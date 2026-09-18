@@ -66,8 +66,27 @@
 
 # zarb(2,4)
 
-import random
-print(random.randint(1,100))
-b=range(0,10)
-for a in b:
-    print(random.randint(0,100))
+# import random
+# print(random.randint(1,100))
+# c=[]
+# b=range(0,10)
+# for a in b:
+#     y=random.randint(0,100)
+#     c.append(y)
+
+# print(c)
+
+# import random
+# def a(min , max):
+#     c=random.randint(min , max)
+#     if c%2==0 :
+#         print("divided is avaible")
+#     else:
+#         print('divided isnt avaible')
+
+# a(5,200)
+
+
+
+
+
