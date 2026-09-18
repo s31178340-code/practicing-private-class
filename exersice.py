@@ -88,5 +88,20 @@
 
 
 
+# from kivy.app import runTouchApp
+# from kivy.uix.button import Button
+# runTouchApp(Button(text="hello"))
+
+# from kivy.uix.button import Button
+# Button= Button(text='hello')
+
+
+from kivy.uix.button import Button
+from kivy.app import runTouchApp
+runTouchApp(Button(text='hello'))
+
+
+
+
 
 
