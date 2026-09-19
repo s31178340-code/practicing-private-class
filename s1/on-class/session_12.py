@@ -3,7 +3,6 @@ from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout
 app = QApplication()
 
 widget = QWidget()
-widget.setGeometry(10, 10, 10, 10)
 
 button = QPushButton('Click on me')
 button_2 = QPushButton('Cancel')
