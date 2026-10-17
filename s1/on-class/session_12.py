@@ -13,6 +13,5 @@ v_l.addWidget(button_2)
 
 widget.setLayout(v_l)
 
-button_2.show()
 widget.show()
 app.exec()
