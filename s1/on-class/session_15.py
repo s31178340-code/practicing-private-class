@@ -87,7 +87,6 @@
 # a(5,200)
 
 
-
 # from kivy.app import runTouchApp
 # from kivy.uix.button import Button
 # runTouchApp(Button(text="hello"))
@@ -119,10 +118,6 @@
 # widget.show()
 # button.show()
 # app.exec()
-
-
-
-
 
 
 # from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QLabel , QHBoxLayout, QVBoxLayout , QLineEdit , QCheckBox
@@ -175,54 +170,52 @@
 # app.exec()
 
 
-from PySide6.QtWidgets import QApplication , QWidget , QPushButton , QLabel , QCheckBox , QHBoxLayout , QVBoxLayout
+# from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QCheckBox, QHBoxLayout, QVBoxLayout
 
-app = QApplication()
+# app = QApplication()
 
-wgt = QWidget()
+# wgt = QWidget()
 
-Button_1= QPushButton('انصراف')
-Button_2= QPushButton('خرید')
+# Button_1 = QPushButton('انصراف')
+# Button_2 = QPushButton('خرید')
 
-check_1= QCheckBox('دریافت فاکتور دیجیتال')
-check_2= QCheckBox('استفاده از کد تخفیف')
-check_3= QCheckBox('پذیرفتن قوانین خرید')
+# check_1 = QCheckBox('دریافت فاکتور دیجیتال')
+# check_2 = QCheckBox('استفاده از کد تخفیف')
+# check_3 = QCheckBox('پذیرفتن قوانین خرید')
 
-H_1= QHBoxLayout()
-H_2= QHBoxLayout()
-H_3= QHBoxLayout()
+# H_1 = QHBoxLayout()
+# H_5 = QHBoxLayout()
 
-H_4= QHBoxLayout()
-H_5= QHBoxLayout()
+# H_1.addWidget(check_1)
+# H_1.addWidget(check_2)
+# H_1.addWidget(check_3)
 
-H_1.addWidget(check_1)
-H_2.addWidget(check_2)
-H_3.addWidget(check_3)
+# H_5.addWidget(Button_1)
+# H_5.addWidget(Button_2)
 
-H_4.addWidget(Button_1)
-H_5.addWidget(Button_2)
-
-v_1=QVBoxLayout()
-v_2=QVBoxLayout()
-v_3=QVBoxLayout()
-
-v_1.addLayout(H_1)
-v_1.addLayout(H_2)
-v_1.addLayout(H_3)
-v_2.addLayout(H_4)
-v_2.addLayout(H_5)
-
-v_3.addLayout(v_1)
-v_3.addLayout(v_2)
-
-wgt.setLayout(v_3)
-
-wgt.show()
-app.exec()
+# v_1 = QVBoxLayout()
 
 
+# v_1.addLayout(H_1)
+# v_1.addLayout(H_5)
 
 
+# wgt.setLayout(v_1)
+
+# wgt.show()
+# app.exec()
 
 
+# a = ["reza", 'mohamad', 'kazem', 1, 2, 4, True]
+# # a[start index:end index:step]
+# print(a[0:6:2])
+# print(a[-1])
 
+
+alis_info = {"name": "ali", "age": 23, "last_name": "hoseini", "gender": "male"}
+mahnazs_info = {"name": "mahanz", "age": 20, "last_name": "jafari", "gender": "female"}
+
+print(alis_info["last_name"])
+print(mahnazs_info["age"])
+alis_info["email"] = "aaa@eample.com"
+print(alis_info)
