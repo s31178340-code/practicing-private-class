@@ -175,50 +175,97 @@
 # app.exec()
 
 
-from PySide6.QtWidgets import QApplication , QWidget , QPushButton , QLabel , QCheckBox , QHBoxLayout , QVBoxLayout
+# from PySide6.QtWidgets import QApplication , QWidget , QPushButton , QLabel , QCheckBox , QHBoxLayout , QVBoxLayout
 
-app = QApplication()
+# app = QApplication()
 
-wgt = QWidget()
+# wgt = QWidget()
 
-Button_1= QPushButton('انصراف')
-Button_2= QPushButton('خرید')
+# Button_1= QPushButton('انصراف')
+# Button_2= QPushButton('خرید')
 
-check_1= QCheckBox('دریافت فاکتور دیجیتال')
-check_2= QCheckBox('استفاده از کد تخفیف')
-check_3= QCheckBox('پذیرفتن قوانین خرید')
+# check_1= QCheckBox('دریافت فاکتور دیجیتال')
+# check_2= QCheckBox('استفاده از کد تخفیف')
+# check_3= QCheckBox('پذیرفتن قوانین خرید')
 
-H_1= QHBoxLayout()
-H_2= QHBoxLayout()
-H_3= QHBoxLayout()
+# H_1= QHBoxLayout()
+# H_2= QHBoxLayout()
+# H_3= QHBoxLayout()
 
-H_4= QHBoxLayout()
-H_5= QHBoxLayout()
+# H_4= QHBoxLayout()
+# H_5= QHBoxLayout()
 
-H_1.addWidget(check_1)
-H_2.addWidget(check_2)
-H_3.addWidget(check_3)
+# H_1.addWidget(check_1)
+# H_2.addWidget(check_2)
+# H_3.addWidget(check_3)
 
-H_4.addWidget(Button_1)
-H_5.addWidget(Button_2)
+# H_4.addWidget(Button_1)
+# H_5.addWidget(Button_2)
 
-v_1=QVBoxLayout()
-v_2=QVBoxLayout()
-v_3=QVBoxLayout()
+# v_1=QVBoxLayout()
+# v_2=QVBoxLayout()
+# v_3=QVBoxLayout()
 
-v_1.addLayout(H_1)
-v_1.addLayout(H_2)
-v_1.addLayout(H_3)
-v_2.addLayout(H_4)
-v_2.addLayout(H_5)
+# v_1.addLayout(H_1)
+# v_1.addLayout(H_2)
+# v_1.addLayout(H_3)
+# v_2.addLayout(H_4)
+# v_2.addLayout(H_5)
 
-v_3.addLayout(v_1)
-v_3.addLayout(v_2)
+# v_3.addLayout(v_1)
+# v_3.addLayout(v_2)
 
-wgt.setLayout(v_3)
+# wgt.setLayout(v_3)
 
+# wgt.show()
+# app.exec()
+
+from PySide6.QtWidgets import QApplication , QPushButton , QWidget , QCheckBox , QLabel , QRadioButton , QHBoxLayout , QVBoxLayout , QLineEdit
+
+app= QApplication()
+
+wgt= QWidget()
+
+button_1= QPushButton('sign up')
+button_2= QPushButton('login')
+
+check_1= QCheckBox('Notif')
+check_2= QCheckBox('Active')
+
+Radio_1= QRadioButton('Female')
+Radio_2= QRadioButton('Male')
+
+lable= QLabel('Username')
+
+Line= QLineEdit()
+
+H_1=QHBoxLayout()
+H_1.addWidget(lable)
+H_1.addWidget(Line)
+
+H_2=QHBoxLayout()
+H_2.addWidget(Radio_1)
+H_2.addWidget(Radio_2)
+
+H_3=QHBoxLayout()
+H_3.addWidget(check_1)
+H_3.addWidget(check_2)
+
+H_4=QHBoxLayout()
+H_4.addWidget(button_1)
+H_4.addWidget(button_2)
+
+V_1= QVBoxLayout()
+V_1.addLayout(H_1)
+V_1.addLayout(H_2)
+V_1.addLayout(H_3)
+V_1.addLayout(H_4)
+
+wgt.setLayout(V_1)
 wgt.show()
 app.exec()
+
+
 
 
 
