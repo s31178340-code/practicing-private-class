@@ -6,25 +6,20 @@
 # print(c)
 
 
-
-
-
-
-# from PySide6.QtWidgets import QApplication , QWidget , QPushButton , QVBoxLayout
-# a=['C0','C1' 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10']
-# App=QApplication()
-# wgt=QWidget()
-# v_1=QVBoxLayout()
+# from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout
+# a = ['C0', 'C1' 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10']
+# App = QApplication()
+# wgt = QWidget()
+# v_1 = QVBoxLayout()
 
 # for i in a:
-#     button=QPushButton(i)
+#     button = QPushButton(i)
 #     v_1.addWidget(button)
 
 # wgt.setLayout(v_1)
 
 # wgt.show()
 # App.exec()
-
 
 
 # from PySide6.QtWidgets import QApplication , QWidget , QLabel , QCheckBox , QLineEdit , QRadioButton , QTextEdit , QHBoxLayout , QVBoxLayout , QPushButton
